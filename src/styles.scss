@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+// Colores principales
+$primary-color: #28a745;
+$secondary-color: #17a2b8;
+$bg-color-white: #ffffff;
+$bg-color-light: #f8f9fa;
+$bg-color-dark: #343a40;
+
+// Colores adicionales
+$accent-color: #ffc107;
+$text-color-light: #ffffff;
+$text-color-dark: #212529;
+
+body, html {
+  overflow-x: hidden;
+}

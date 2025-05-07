@@ -1,0 +1,15 @@
+@use "../../../styles.scss" as *;
+
+.card {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  background-color: #bfff0013;  /* Color suave de fondo */
+  transform: translateY(-5px);  /* Eleva el card ligeramente */
+}
+
+#icon {
+  color: $bg-color-white;
+  font-size: 24px;
+}

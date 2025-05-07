@@ -1,0 +1,7 @@
+@use "../../../styles.scss" as *;
+
+#message {
+  max-height: 200px;
+  overflow-y: auto;
+  resize: vertical; /* O 'none' para desactivar el redimensionamiento manual */
+}

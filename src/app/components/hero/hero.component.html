@@ -1,37 +1,74 @@
-<!-- Hero -->
-<section class="hero-section d-flex align-items-center justify-content-center text-dark text-left">
-    <div class="container row">
-        <div class="col-md-7 col-12 pt-md-5 px-4 py-5">
-            <h1 class="display-4 fw-bold">Bienvenido a Smartbill</h1>
-            <p class="lead">Una sola parada para manejar todas tus facturas electrónicas.</p>
-            <a href="#" class="btn btn-success mt-3">Registrate</a>
-        </div>
-        <div class="col-md-5 col-12 rounded-3 p-4 bg-white">
-            <form action="">
-                <h2 class="h3">Contactanos!</h2>
-                <!-- Name Input -->
-                <div class="mb-3">
-                    <label for="name" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre" required>
-                </div>
-
-                <!-- Email Input -->
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Ingresa tu email" required>
-                </div>
-
-                <!-- Textarea -->
-                <div class="mb-3">
-                    <label for="message" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="message" rows="4" placeholder="Mensaje"
-                        required></textarea>
-                </div>
-
-                <!-- Submit Button -->
-                <button type="submit" class="btn btn-success">Enviar</button>
-            </form>
-        </div>
-
+<!-- Hero Section with Carousel -->
+<section id="hero" class="hero-carousel">
+  <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-overlay"></div>
+        <img src="images/electronic_bill.jpg" class="d-block w-100" alt="Facturación electrónica">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 class="display-3 fw-bold mb-4">Simplifica tu facturación electrónica</h1>
+            <p class="lead mb-5">Cumple con el SAT de manera fácil, rápida y segura con nuestra plataforma todo en uno.
+            </p>
+            <div class="d-flex gap-3">
+              <a href="#register" class="btn btn-success btn-lg px-4 py-3">Comenzar ahora</a>
+              <a href="#demo" class="btn btn-outline-light btn-lg px-4 py-3">Ver demostración</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-overlay"></div>
+        <img src="images/hero1.jpg" class="d-block w-100" alt="Integración POS">
+        <div class="container">
+          <div class="carousel-caption text-center">
+            <h1 class="display-3 fw-bold mb-4">Integración con tu punto de venta</h1>
+            <p class="lead mb-5">Conecta Smartbill POS y automatiza tu facturación con cada venta.</p>
+            <div class="d-flex gap-3 justify-content-center">
+              <a href="#pricing" class="btn btn-success btn-lg px-4 py-3">Conoce los planes</a>
+              <a href="#features" class="btn btn-outline-light btn-lg px-4 py-3">Más características</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-overlay"></div>
+        <img src="images/hero2.jpg" class="d-block w-100" alt="Reportes financieros">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1 class="display-3 fw-bold mb-4">Reportes financieros avanzados</h1>
+            <p class="lead mb-5">Toma mejores decisiones con análisis en tiempo real de tus ventas.</p>
+            <div class="d-flex gap-3 justify-content-end">
+              <a href="#testimonials" class="btn btn-success btn-lg px-4 py-3">Casos de éxito</a>
+              <a href="#contact" class="btn btn-outline-light btn-lg px-4 py-3">Contactar asesor</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 </section>
